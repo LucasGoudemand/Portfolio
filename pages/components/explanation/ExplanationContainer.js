@@ -13,7 +13,7 @@ export default function ExplanationContainer() {
           />
           <Explanation
             numbers="02"
-            text="Une fois que vous avez fait votre choix, vous pouvez simplement faire glisser et déposer la compétence que vous souhaitez, directement dans votre panier."
+            text="Une fois que vous avez fait votre choix, vous pouvez simplement cliquer sur la compétence que vous souhaitez elle sera mise directement dans votre panier."
           />
           <Explanation
             numbers="03"

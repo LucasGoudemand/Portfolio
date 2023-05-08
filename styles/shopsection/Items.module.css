@@ -10,7 +10,7 @@
   cursor: pointer;
 }
 .detailsClass {
-  font-size: 30px;
+  font-size: 20px;
 }
 .ulClass li {
   text-decoration: none;
@@ -29,18 +29,22 @@
 }
 .line {
   width: 100%;
-  height: 5px;
-  background-color: white;
+  height: 1px;
+  background-color: #efefef9d;
   margin-top: 20px;
+}
+.summaryClass:hover span {
+  transform: scale(1.5);
+  transition: transform 0.5s ease-in-out;
 }
 .summaryClass span {
   color: white;
   font-size: 50px;
   transition: transform 0.5s ease-in-out;
-  transform: rotate(90deg);
+  user-select: none;
 }
 .detailsClass[open] .summaryClass span {
-  transform: rotate(-45deg);
+  transform: rotate(-135deg);
 }
 .detailsClass[open] {
   transition: 2s;

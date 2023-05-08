@@ -1,0 +1,12 @@
+.ulClass li {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 20px;
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: #72c142;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+}
