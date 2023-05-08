@@ -1,0 +1,47 @@
+.summaryClass {
+  list-style: none;
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.detailsClass {
+  font-size: 30px;
+}
+.ulClass li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.ulClass li:hover {
+  background-color: #72c142;
+  outline: 10px solid #72c142;
+  border-radius: 25px;
+  transition: 0.5s;
+}
+.line {
+  width: 100%;
+  height: 5px;
+  background-color: white;
+  margin-top: 20px;
+}
+.summaryClass span {
+  color: white;
+  font-size: 50px;
+  transition: transform 0.5s ease-in-out;
+  transform: rotate(90deg);
+}
+.detailsClass[open] .summaryClass span {
+  transform: rotate(-45deg);
+}
+.detailsClass[open] {
+  transition: 2s;
+}

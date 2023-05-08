@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 30px;
+  transition: 1s;
+}
+.navbar li a:hover {
+  background-color: #72c142;
+  outline: 6px solid #72c142;
+  border-radius: 25px;
+  transition: 1s;
+}

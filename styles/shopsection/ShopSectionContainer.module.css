@@ -1,0 +1,7 @@
+.containerShopSection {
+  margin-top: 150px;
+  display: flex;
+}
+.containerSkills {
+  flex-basis: 30%;
+}

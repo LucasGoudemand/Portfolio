@@ -1,0 +1,13 @@
+.containerbBigTitle {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 150px;
+}
+.title {
+  font-size: 170px;
+  line-height: 170px;
+}
+.smalltitle {
+  margin-bottom: 10px;
+  margin-left: 10px;
+}

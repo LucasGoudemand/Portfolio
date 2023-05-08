@@ -1,0 +1,170 @@
+[
+  {
+    "id": "c67ab8a7",
+    "title": "REACT.JS",
+    "experience": "1 an",
+    "tags": "stack"
+  },
+  {
+    "id": "c67ab8a72",
+    "title": "NEXT.JS",
+    "experience": "1 an",
+    "tags": "stack"
+  },
+  {
+    "id": "c67ab8a713",
+    "title": "JAVASCRIPT",
+    "experience": "1 an",
+    "tags": "stack"
+  },
+  {
+    "id": "c67ab8a74",
+    "title": "NODES.JS",
+    "experience": "1 an",
+    "tags": "stack"
+  },
+  {
+    "id": "c67ab8a745",
+    "title": "EXPRESS",
+    "experience": "1 an",
+    "tags": "stack"
+  },
+  {
+    "id": "c67ab8a746",
+    "title": "HTML5",
+    "experience": "1 an",
+    "tags": "stack"
+  },
+  {
+    "id": "c67ab8a747",
+    "title": "CSS3",
+    "experience": "1 an",
+    "tags": "stack"
+  },
+  {
+    "id": "c67ab8a748",
+    "title": "SQL",
+    "experience": "3 ans",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a749",
+    "title": "MONGODB",
+    "experience": "1 an",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7410",
+    "title": "WIN/UNIX SERVER",
+    "experience": "5 ans",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7411",
+    "title": "GIT",
+    "experience": "1 an",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7412",
+    "title": "CI/CD",
+    "experience": "Notions",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7413",
+    "title": "SCRUM",
+    "experience": "Notions",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7414",
+    "title": "Passioné",
+    "tags": "softskills"
+  },
+  {
+    "id": "c67ab8a7415",
+    "title": "Perfectionniste",
+    "tags": "softskills"
+  },
+  {
+    "id": "c67ab8a7416",
+    "title": "Team player",
+    "tags": "softskills"
+  },
+  {
+    "id": "c67ab8a7417",
+    "title": "Curieux",
+    "tags": "softskills"
+  },
+  {
+    "id": "c67ab8a7418",
+    "title": "Motivé",
+    "tags": "softskills"
+  },
+  {
+    "id": "c67ab8a7419",
+    "title": "Force de proposition",
+    "tags": "softskills"
+  },
+  {
+    "id": "c67ab8a7420",
+    "title": "FIGMA",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7421",
+    "title": "API",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7422",
+    "title": "SEO",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7423",
+    "title": "OPTIMISATION",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7424",
+    "title": "TESTS UNITAIRES",
+    "tags": "DevOps"
+  },
+  {
+    "id": "c67ab8a7425",
+    "title": "SCRIPTING",
+    "tags": "extra"
+  },
+  {
+    "id": "c67ab8a7426",
+    "title": "DNS",
+    "tags": "extra"
+  },
+  {
+    "id": "c67ab8a7427",
+    "title": "ROUTAGE TCP/IP",
+    "tags": "extra"
+  },
+  {
+    "id": "c67ab8a7428",
+    "title": "EXCHANGE",
+    "tags": "extra"
+  },
+  {
+    "id": "c67ab8a7429",
+    "title": "VIRTUALISATION",
+    "tags": "extra"
+  },
+  {
+    "id": "c67ab8a7430",
+    "title": "FIREWALL",
+    "tags": "extra"
+  },
+  {
+    "id": "c67ab8a7431",
+    "title": "CISCO CERTIFICATION",
+    "tags": "extra"
+  }
+]
