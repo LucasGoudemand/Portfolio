@@ -1,6 +1,7 @@
 .visualisationTitle {
   font-size: 30px;
   font-weight: 500;
+  text-align: center;
 }
 .cvTitle {
   font-size: 30px;
@@ -9,8 +10,20 @@
   border: 1px solid;
   border-radius: 50px;
   padding: 20px 100px 20px 100px;
+  text-align: center;
 }
 .cvImage {
   border: 2px solid #72c142;
   border-radius: 100px;
+}
+.cvHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.cvHeaderInfo {
+  text-align: end;
+  font-size: 20px;
+  font-weight: 400;
 }

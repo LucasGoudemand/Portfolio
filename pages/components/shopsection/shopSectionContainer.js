@@ -1,7 +1,7 @@
 import styles from "../../../styles/shopsection/ShopSectionContainer.module.css";
-import Items from "../shopsection/items/items";
-import Basket from "../shopsection/basket/basket";
-import Preset from "../shopsection/items/preset";
+import Items from "./items/Items";
+import Basket from "./basket/Basket";
+import Preset from "./items/Preset";
 import PresetPrev from "../shopsection/basketprev/BasketPrev";
 import data from "../../api/data.json";
 import { useState } from "react";

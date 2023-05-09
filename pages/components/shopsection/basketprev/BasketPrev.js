@@ -14,6 +14,12 @@ export default function BasketPrevisualisation(props) {
           src="/lucas.png"
           className={styles.cvImage}
         />
+        <div className={styles.cvHeaderInfo}>
+          <p>Lucas Goudemand</p>
+          <p>goudemand.lucas@gmail.com</p>
+          <p>Paris</p>
+          <p>Anglais/Français</p>
+        </div>
       </div>
     </>
   );
