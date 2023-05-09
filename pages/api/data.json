@@ -110,61 +110,73 @@
   {
     "id": "c67ab8a7420",
     "title": "FIGMA",
+    "experience": "Bonne Notions",
     "tags": "DevOps"
   },
   {
     "id": "c67ab8a7421",
     "title": "API",
+    "experience": "Bonnes Notions",
     "tags": "DevOps"
   },
   {
     "id": "c67ab8a7422",
     "title": "SEO",
+    "experience": "Bonnes Notions",
     "tags": "DevOps"
   },
   {
     "id": "c67ab8a7423",
     "title": "OPTIMISATION",
+    "experience": "Bonnes Notions",
     "tags": "DevOps"
   },
   {
     "id": "c67ab8a7424",
     "title": "TESTS UNITAIRES",
+    "experience": "Notions",
     "tags": "DevOps"
   },
   {
     "id": "c67ab8a7425",
     "title": "SCRIPTING",
+    "experience": "2 ans",
     "tags": "extra"
   },
   {
     "id": "c67ab8a7426",
     "title": "DNS",
+    "experience": "3 ans",
     "tags": "extra"
   },
   {
     "id": "c67ab8a7427",
     "title": "ROUTAGE TCP/IP",
+    "experience": "4 ans",
     "tags": "extra"
   },
   {
     "id": "c67ab8a7428",
     "title": "EXCHANGE",
+    "experience": "3 ans",
     "tags": "extra"
   },
   {
     "id": "c67ab8a7429",
     "title": "VIRTUALISATION",
+    "experience": "4 ans",
     "tags": "extra"
   },
   {
     "id": "c67ab8a7430",
     "title": "FIREWALL",
+    "experience": "1 an",
     "tags": "extra"
   },
   {
     "id": "c67ab8a7431",
     "title": "CISCO CERTIFICATION",
+    "experience": "CCNA",
     "tags": "extra"
   }
 ]

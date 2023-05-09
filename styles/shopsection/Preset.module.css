@@ -1,0 +1,26 @@
+.fullstackClass:hover {
+  background-color: #72c142;
+  outline: 10px solid #72c142;
+  border-radius: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.frontendClass:hover {
+  background-color: #72c142;
+  outline: 10px solid #72c142;
+  border-radius: 25px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.fullstackClass {
+  transition: 0.5s;
+  border: 1px solid #72c142;
+  border-radius: 25px;
+  padding: 6px 10px 6px 10px;
+}
+.frontendClass {
+  transition: 0.5s;
+  border: 1px solid #72c142;
+  border-radius: 25px;
+  padding: 6px 10px 6px 10px;
+}

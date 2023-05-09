@@ -26,3 +26,8 @@
   font-size: 40px;
   padding-bottom: 40px;
 }
+.containerPreset {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

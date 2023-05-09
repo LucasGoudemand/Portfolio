@@ -2,21 +2,25 @@ import styles from "../../../../styles/shopsection/Basket.module.css";
 import data from "../../../api/data.json";
 
 export default function Basket(props) {
-  const listOfSkills = props.array; //On appel la fonction addASkills qui a été passé en props qui est dans l'élément parent
-  const expOfSkills = data.filter((item) => item.tags.includes(listOfSkills));
+  const skillsList = props.array.map((title, index) => {
+    const exp = data.find((item) => item.title === title).experience; // on cherche dans le data l'expérience qui correspond au title
+    return { title, exp };
+  });
+
   return (
     <>
       <ul className={styles.ulClass}>
-        {listOfSkills.map(
-          (
-            title //Map chaque item pour créer une balise li de chaque occurences trouvées
-          ) => (
-            <li key={title}>
-              {title}
-              <p>{expOfSkills.experience}</p>
-            </li>
-          )
-        )}
+        {skillsList.map(({ title, exp }, index) => (
+          <li key={index}>
+            {title} <p>{exp}</p>
+            <span
+              className="material-symbols-outlined"
+              onClick={() => props.removeASkills(title)} // on fait appel a la function removeASkills de l'élement parent
+            >
+              delete
+            </span>
+          </li>
+        ))}
       </ul>
     </>
   );

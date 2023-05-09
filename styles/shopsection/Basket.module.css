@@ -1,12 +1,31 @@
+.ulClass {
+  display: flex;
+  flex-direction: column;
+}
 .ulClass li {
   text-decoration: none;
   list-style: none;
-  margin-left: 20px;
   margin-top: 20px;
-  transition: 0.5s;
+  transition: 1s ease-in-out;
   cursor: pointer;
-  background-color: #72c142;
   padding: 10px;
-  border-radius: 25px;
-  text-align: center;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ulClass p {
+  margin-left: 30px;
+  display: flex;
+  color: #72c142;
+  font-weight: 600;
+  transition: 1s ease-in-out;
+}
+.ulClass span {
+  margin-left: 30px;
+  transition: 0.5s ease-in-out;
+}
+.ulClass:hover span {
+  transform: scale(1.5);
+  transition: transform 0.5s ease-in-out;
 }
