@@ -2,6 +2,7 @@ import styles from "../../../styles/shopsection/ShopSectionContainer.module.css"
 import Items from "../shopsection/items/items";
 import Basket from "../shopsection/basket/basket";
 import Preset from "../shopsection/items/preset";
+import PresetPrev from "../shopsection/basketprev/BasketPrev";
 import data from "../../api/data.json";
 import { useState } from "react";
 
@@ -57,44 +58,49 @@ export default function ShopSectionContainer() {
   return (
     <>
       <div className={styles.containerShopSection}>
-        <div className={styles.containerSkills}>
-          <div className={styles.containerPreset}>
-            <p> Preset: </p>
-            <Preset
-              fullStackPreset={fullStackPreset}
-              frontEndPreset={frontEndPreset}
-            />
+        <div className={styles.containerSkillsAndBasket}>
+          <div className={styles.containerSkills}>
+            <div className={styles.containerPreset}>
+              <p> Preset: </p>
+              <Preset
+                fullStackPreset={fullStackPreset}
+                frontEndPreset={frontEndPreset}
+              />
+            </div>
+            <Items
+              titleSummary="Stack"
+              tag="stack"
+              addASkills={addASkills}
+            ></Items>
+
+            <Items
+              titleSummary="DevOps"
+              tag="DevOps"
+              addASkills={addASkills}
+            ></Items>
+
+            <Items
+              titleSummary="SoftSkills"
+              tag="softskills"
+              addASkills={addASkills}
+            ></Items>
+
+            <Items
+              titleSummary="Extra"
+              tag="extra"
+              addASkills={addASkills}
+            ></Items>
           </div>
-          <Items
-            titleSummary="Stack"
-            tag="stack"
-            addASkills={addASkills}
-          ></Items>
-
-          <Items
-            titleSummary="DevOps"
-            tag="DevOps"
-            addASkills={addASkills}
-          ></Items>
-
-          <Items
-            titleSummary="SoftSkills"
-            tag="softskills"
-            addASkills={addASkills}
-          ></Items>
-
-          <Items
-            titleSummary="Extra"
-            tag="extra"
-            addASkills={addASkills}
-          ></Items>
+          <div className={styles.containerBasket}>
+            <div className={styles.line}></div>
+            <div className={styles.flexBoxColumn}>
+              <h2 className={styles.panierTitle}>Panier</h2>
+              <Basket array={basketArray} removeASkills={removeASkill} />
+            </div>
+          </div>
         </div>
-        <div className={styles.containerBasket}>
-          <div className={styles.line}></div>
-          <div className={styles.flexBoxColumn}>
-            <h2 className={styles.panierTitle}>Panier</h2>
-            <Basket array={basketArray} removeASkills={removeASkill} />
-          </div>
+        <div className={styles.containerBasketPrevisualisation}>
+          <PresetPrev />
         </div>
       </div>
     </>

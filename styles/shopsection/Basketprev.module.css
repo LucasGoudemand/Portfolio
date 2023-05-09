@@ -1,0 +1,16 @@
+.visualisationTitle {
+  font-size: 30px;
+  font-weight: 500;
+}
+.cvTitle {
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 70px;
+  border: 1px solid;
+  border-radius: 50px;
+  padding: 20px 100px 20px 100px;
+}
+.cvImage {
+  border: 2px solid #72c142;
+  border-radius: 100px;
+}
