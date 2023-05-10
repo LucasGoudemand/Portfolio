@@ -1,0 +1,35 @@
+.containerBasketPrevSkills {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 45%;
+}
+.line {
+  height: 1px;
+  background-color: #efefef9d;
+  margin-top: 50px;
+}
+.ulClass li {
+  margin-top: 30px;
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+}
+.ulClass {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+.liClassTitle {
+  background-color: #72c142;
+  padding: 7px;
+  border-radius: 25px;
+  width: 120px;
+}
+.liClassExp {
+  margin-left: 30px;
+}
+.containerTitle {
+  text-align: center;
+  margin-top: 20px;
+}

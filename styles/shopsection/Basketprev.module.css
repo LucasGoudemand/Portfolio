@@ -27,3 +27,8 @@
   font-size: 20px;
   font-weight: 400;
 }
+.cvSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}

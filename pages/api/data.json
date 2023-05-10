@@ -3,43 +3,43 @@
     "id": "c67ab8a7",
     "title": "REACT.JS",
     "experience": "1 an",
-    "tags": "stack"
+    "tags": "Stack"
   },
   {
     "id": "c67ab8a72",
     "title": "NEXT.JS",
     "experience": "1 an",
-    "tags": "stack"
+    "tags": "Stack"
   },
   {
     "id": "c67ab8a713",
     "title": "JAVASCRIPT",
     "experience": "1 an",
-    "tags": "stack"
+    "tags": "Stack"
   },
   {
     "id": "c67ab8a74",
     "title": "NODES.JS",
     "experience": "1 an",
-    "tags": "stack"
+    "tags": "Stack"
   },
   {
     "id": "c67ab8a745",
     "title": "EXPRESS",
     "experience": "1 an",
-    "tags": "stack"
+    "tags": "Stack"
   },
   {
     "id": "c67ab8a746",
     "title": "HTML5",
     "experience": "1 an",
-    "tags": "stack"
+    "tags": "Stack"
   },
   {
     "id": "c67ab8a747",
     "title": "CSS3",
     "experience": "1 an",
-    "tags": "stack"
+    "tags": "Stack"
   },
   {
     "id": "c67ab8a748",
@@ -55,7 +55,7 @@
   },
   {
     "id": "c67ab8a7410",
-    "title": "WIN/UNIX SERVER",
+    "title": "WIN/UNIX",
     "experience": "5 ans",
     "tags": "DevOps"
   },
@@ -80,32 +80,32 @@
   {
     "id": "c67ab8a7414",
     "title": "Passioné",
-    "tags": "softskills"
+    "tags": "SoftSkills"
   },
   {
     "id": "c67ab8a7415",
     "title": "Perfectionniste",
-    "tags": "softskills"
+    "tags": "SoftSkills"
   },
   {
     "id": "c67ab8a7416",
     "title": "Team player",
-    "tags": "softskills"
+    "tags": "SoftSkills"
   },
   {
     "id": "c67ab8a7417",
     "title": "Curieux",
-    "tags": "softskills"
+    "tags": "SoftSkills"
   },
   {
     "id": "c67ab8a7418",
     "title": "Motivé",
-    "tags": "softskills"
+    "tags": "SoftSkills"
   },
   {
     "id": "c67ab8a7419",
-    "title": "Force de proposition",
-    "tags": "softskills"
+    "title": "Determiné",
+    "tags": "SoftSkills"
   },
   {
     "id": "c67ab8a7420",
@@ -133,7 +133,7 @@
   },
   {
     "id": "c67ab8a7424",
-    "title": "TESTS UNITAIRES",
+    "title": "T.U",
     "experience": "Notions",
     "tags": "DevOps"
   },
@@ -141,42 +141,42 @@
     "id": "c67ab8a7425",
     "title": "SCRIPTING",
     "experience": "2 ans",
-    "tags": "extra"
+    "tags": "Extra"
   },
   {
     "id": "c67ab8a7426",
     "title": "DNS",
     "experience": "3 ans",
-    "tags": "extra"
+    "tags": "Extra"
   },
   {
     "id": "c67ab8a7427",
-    "title": "ROUTAGE TCP/IP",
+    "title": "TCP/IP",
     "experience": "4 ans",
-    "tags": "extra"
+    "tags": "Extra"
   },
   {
     "id": "c67ab8a7428",
     "title": "EXCHANGE",
     "experience": "3 ans",
-    "tags": "extra"
+    "tags": "Extra"
   },
   {
     "id": "c67ab8a7429",
-    "title": "VIRTUALISATION",
+    "title": "VMWARE",
     "experience": "4 ans",
-    "tags": "extra"
+    "tags": "Extra"
   },
   {
     "id": "c67ab8a7430",
     "title": "FIREWALL",
     "experience": "1 an",
-    "tags": "extra"
+    "tags": "Extra"
   },
   {
     "id": "c67ab8a7431",
-    "title": "CISCO CERTIFICATION",
+    "title": "CISCO",
     "experience": "CCNA",
-    "tags": "extra"
+    "tags": "Extra"
   }
 ]

@@ -2,7 +2,7 @@ import styles from "../../../styles/shopsection/ShopSectionContainer.module.css"
 import Items from "./items/items";
 import Basket from "./basket/basket";
 import Preset from "./items/preset";
-import PresetPrev from "../shopsection/basketprev/BasketPrev";
+import BasketPrev from "../shopsection/basketprev/BasketPrev";
 import data from "../../api/data.json";
 import { useState } from "react";
 
@@ -54,7 +54,6 @@ export default function ShopSectionContainer() {
     setBasketArray(fullstackArray);
   }
 
-  console.log(basketArray);
   return (
     <>
       <div className={styles.containerShopSection}>
@@ -69,7 +68,7 @@ export default function ShopSectionContainer() {
             </div>
             <Items
               titleSummary="Stack"
-              tag="stack"
+              tag="Stack"
               addASkills={addASkills}
             ></Items>
 
@@ -81,13 +80,13 @@ export default function ShopSectionContainer() {
 
             <Items
               titleSummary="SoftSkills"
-              tag="softskills"
+              tag="SoftSkills"
               addASkills={addASkills}
             ></Items>
 
             <Items
               titleSummary="Extra"
-              tag="extra"
+              tag="Extra"
               addASkills={addASkills}
             ></Items>
           </div>
@@ -100,7 +99,7 @@ export default function ShopSectionContainer() {
           </div>
         </div>
         <div className={styles.containerBasketPrevisualisation}>
-          <PresetPrev />
+          <BasketPrev array={basketArray} />
         </div>
       </div>
     </>
