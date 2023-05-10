@@ -1,5 +1,6 @@
 import styles from "/styles/shopsection/Basketprev.module.css";
 import BasketPrevSkills from "./BasketPrevSkills";
+import BasketPrevTimeline from "./BasketPrevTimeline";
 import Image from "next/image";
 import { fc } from "react";
 
@@ -28,6 +29,9 @@ export default function BasketPrevisualisation(props) {
         <BasketPrevSkills array={props.array} title="DevOps" />
         <BasketPrevSkills array={props.array} title="SoftSkills" />
         <BasketPrevSkills array={props.array} title="Extra" />
+      </div>
+      <div className={styles.cvTimeline}>
+        <BasketPrevTimeline />
       </div>
     </>
   );
