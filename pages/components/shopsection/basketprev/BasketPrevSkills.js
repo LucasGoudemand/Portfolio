@@ -26,7 +26,7 @@ export default function BasketPrevisualisation(props) {
             //On appel la fonction addASkills qui a été passé en props qui est dans l'élément parent
             <ul key={index} className={styles.ulClass}>
               <li className={styles.liClassTitle}>{item.title}</li>
-              <li className={styles.liClassExp}>Années: {item.experience}</li>
+              <li className={styles.liClassExp}>EXP: {item.experience}</li>
             </ul>
           )
         )}

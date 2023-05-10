@@ -1,7 +1,7 @@
 import styles from "../../../styles/shopsection/ShopSectionContainer.module.css";
-import Items from "./items/items";
-import Basket from "./basket/basket";
-import Preset from "./items/preset";
+import Items from "../shopsection/items/Items";
+import Basket from "../shopsection/basket/Basket";
+import Preset from "../shopsection/items/Preset";
 import BasketPrev from "../shopsection/basketprev/BasketPrev";
 import data from "../../api/data.json";
 import { useState } from "react";
@@ -46,9 +46,9 @@ export default function ShopSectionContainer() {
       "NEXT.JS",
       "SQL",
       "MONGODB",
-      "WIN/UNIX SERVER",
+      "WIN/UNIX",
       "API",
-      "VIRTUALISATION",
+      "VMWARE",
     ];
     setBasketArray([]);
     setBasketArray(fullstackArray);
