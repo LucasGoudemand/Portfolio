@@ -1,8 +1,9 @@
 import styles from "/styles/shopsection/Basketprev.module.css";
 import BasketPrevSkills from "./BasketPrevSkills";
 import BasketPrevTimeline from "./BasketPrevTimeline";
+import Button from "../../button/Button";
 import Image from "next/image";
-import { fc } from "react";
+import { jsPDF } from "jspdf";
 
 export default function BasketPrevisualisation(props) {
   return (
@@ -32,6 +33,12 @@ export default function BasketPrevisualisation(props) {
       </div>
       <div className={styles.cvTimeline}>
         <BasketPrevTimeline />
+      </div>
+      <div className={styles.cvButtonPdf}>
+        <Button href="#">
+          Generer le PDF
+          <span className="material-symbols-outlined">shopping_cart</span>{" "}
+        </Button>
       </div>
     </>
   );
