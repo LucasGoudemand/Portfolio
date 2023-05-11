@@ -2,19 +2,28 @@
   background-color: #efefef;
   color: black;
   text-decoration: none;
-  font-size: 20px;
-  margin-top: 50px;
+  font-size: 1vw;
+  margin-top: 1.5vw;
   padding: 5px 15px 5px 15px;
   border-radius: 25px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   transition: 1s;
 }
 .button span {
   margin-left: 10px;
+  font-size: 1.1vw;
 }
 .button:hover {
   transition: 1s;
   background-color: #72c142;
   color: #efefef;
   transform: translateX(40px);
+}
+@media (min-width: 1800px) {
+  .button {
+    font-size: 20px;
+    margin-top: 40px;
+  }
 }

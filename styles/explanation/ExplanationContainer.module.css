@@ -4,3 +4,11 @@
 .containerExplanation {
   margin-top: 70px;
 }
+.classH2 {
+  font-size: 2vw;
+}
+@media (min-width: 1800px) {
+  .classH2 {
+    font-size: 35px;
+  }
+}

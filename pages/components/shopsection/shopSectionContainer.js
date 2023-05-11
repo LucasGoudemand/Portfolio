@@ -5,6 +5,7 @@ import Preset from "../shopsection/items/Preset";
 import BasketPrev from "../shopsection/basketprev/BasketPrev";
 import data from "../../api/data.json";
 import { useState } from "react";
+//import PdfGenerator from "../shopsection/basketprev/PdfGenerator";
 
 export default function ShopSectionContainer() {
   const [basketArray, setBasketArray] = useState([]);

@@ -8,7 +8,7 @@
 .navbar li a {
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 1vw;
   display: inline-block;
   margin-top: 30px;
   transition: 1s;
@@ -18,4 +18,9 @@
   outline: 6px solid #72c142;
   border-radius: 25px;
   transition: 1s;
+}
+@media (min-width: 1800px) {
+  .navbar li a {
+    font-size: 20px;
+  }
 }

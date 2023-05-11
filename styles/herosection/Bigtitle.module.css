@@ -4,10 +4,20 @@
   margin-top: 150px;
 }
 .title {
-  font-size: 170px;
-  line-height: 170px;
+  font-size: 10vw;
+  line-height: 10vw;
 }
 .smalltitle {
   margin-bottom: 10px;
   margin-left: 10px;
+  font-size: 1vw;
+}
+@media (min-width: 1800px) {
+  .title {
+    font-size: 170px;
+    line-height: 170px;
+  }
+  .smalltitle {
+    font-size: 20px;
+  }
 }

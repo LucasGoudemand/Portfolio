@@ -5,7 +5,7 @@ export default function ExplanationContainer() {
   return (
     <>
       <div className={styles.containerExplanation}>
-        <h2>Comment constituer mon panier ?</h2>
+        <h2 className={styles.classH2}>Comment constituer mon panier ?</h2>
         <div className={styles.containerForExplanation}>
           <Explanation
             numbers="01"

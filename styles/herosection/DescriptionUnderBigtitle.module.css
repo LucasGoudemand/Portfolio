@@ -3,8 +3,16 @@
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  max-width: 800px;
+  max-width: 40vw;
 }
 .smalltitle {
-  font-size: 20px;
+  font-size: 1vw;
+}
+@media (min-width: 1800px) {
+  .smalltitle {
+    font-size: 20px;
+  }
+  .containerDescriptionUnderBigTitle {
+    max-width: 800px;
+  }
 }
