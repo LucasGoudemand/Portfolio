@@ -2,36 +2,106 @@
   display: flex;
   font-size: 12px;
   margin-top: 70px;
+  position: relative;
 }
+.containerTimeline h3 {
+  margin-bottom: 20px;
+}
+.containerTimeline ul {
+  text-decoration: none;
+  list-style: none;
+  margin-right: 5px;
+}
+
 .containerOpenskillsrh {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 40px;
   width: 24%;
 }
 .containerVoyages {
   display: flex;
   flex-direction: column;
   width: 24%;
+  justify-content: flex-end;
+  margin-bottom: 40px;
 }
 .containerEilyps {
   display: flex;
   flex-direction: column;
   width: 24%;
+  justify-content: flex-end;
+  margin-bottom: 40px;
 }
 .containerCalcialiment {
   display: flex;
   flex-direction: column;
   width: 24%;
+  justify-content: flex-end;
+  margin-bottom: 40px;
 }
-.line {
+.lineOpenskillsrh {
   width: 1px;
   margin-right: 5px;
   background-color: white;
-  height: 300px;
+  height: 250px;
+  margin-top: 80px;
+  position: relative;
 }
+.lineOpenskillsrh p {
+  position: absolute;
+  bottom: -25px;
+  width: 80px;
+  left: -35px;
+}
+.lineVoyages {
+  width: 1px;
+  margin-right: 5px;
+  background-color: white;
+  height: 145px;
+  margin-top: 185px;
+  position: relative;
+}
+.lineVoyages p {
+  position: absolute;
+  bottom: -25px;
+  width: 80px;
+  left: -35px;
+}
+.lineEilyps {
+  width: 1px;
+  margin-right: 5px;
+  background-color: white;
+  height: 325px;
+  margin-top: 5px;
+  position: relative;
+}
+.lineEilyps p {
+  position: absolute;
+  bottom: -25px;
+  width: 80px;
+  left: -32px;
+}
+.lineCalcialiment {
+  width: 1px;
+  margin-right: 5px;
+  background-color: white;
+  height: 295px;
+  margin-top: 35px;
+  position: relative;
+}
+.lineCalcialiment p {
+  position: absolute;
+  bottom: -25px;
+  width: 80px;
+  left: -32px;
+}
+
 .lineGreen {
-  width: 100;
+  width: 100%;
   height: 2px;
   background-color: #72c142;
-  margin-top: -20px;
+  bottom: 0;
+  position: absolute;
 }
