@@ -24,7 +24,7 @@
   width: 100%;
 }
 .panierTitle {
-  font-size: 30px;
+  font-size: 1.5vw;
   font-weight: 500;
   padding-bottom: 40px;
 }
@@ -43,4 +43,9 @@
   padding-left: 20%;
   padding-right: 20%;
   margin-top: 70px;
+}
+@media (min-width: 1800px) {
+  .panierTitle {
+    font-size: 30px;
+  }
 }

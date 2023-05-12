@@ -14,6 +14,7 @@
 }
 .fullstackClass {
   transition: 0.5s;
+  font-size: 1.4vw;
   border: 1px solid #72c142;
   border-radius: 25px;
   padding: 6px 10px 6px 10px;
@@ -22,5 +23,14 @@
   transition: 0.5s;
   border: 1px solid #72c142;
   border-radius: 25px;
+  font-size: 1.4vw;
   padding: 6px 10px 6px 10px;
+}
+@media (min-width: 1800px) {
+  .fullstackClass {
+    font-size: 25px;
+  }
+  .frontendClass {
+    font-size: 25px;
+  }
 }
