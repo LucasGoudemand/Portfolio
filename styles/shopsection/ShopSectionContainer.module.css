@@ -17,6 +17,9 @@
   background-color: #efefef9d;
   margin-top: 20px;
 }
+.pClass {
+  font-size: 1vw;
+}
 .flexBoxColumn {
   display: flex;
   flex-direction: column;
@@ -47,5 +50,8 @@
 @media (min-width: 1800px) {
   .panierTitle {
     font-size: 30px;
+  }
+  .pClass {
+    font-size: 20px;
   }
 }

@@ -61,7 +61,7 @@ export default function ShopSectionContainer() {
         <div className={styles.containerSkillsAndBasket}>
           <div className={styles.containerSkills}>
             <div className={styles.containerPreset}>
-              <p> Preset: </p>
+              <p className={styles.pClass}> Preset: </p>
               <Preset
                 fullStackPreset={fullStackPreset}
                 frontEndPreset={frontEndPreset}

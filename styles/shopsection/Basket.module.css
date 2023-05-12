@@ -6,12 +6,12 @@
 .ulClass li {
   text-decoration: none;
   list-style: none;
-  margin-top: 10px;
+  margin-top: 0.05vw;
   display: flex;
   cursor: pointer;
-  padding: 10px;
-  font-size: 24px;
-  width: 100px;
+  padding: 0.5vw;
+  font-size: 1.2vw;
+  width: 11vw;
 }
 .expClass {
   color: #72c142;
@@ -24,4 +24,12 @@
 .ulClass:hover span {
   transform: scale(1.5);
   transition: transform 0.5s ease-in-out;
+}
+@media (min-width: 1800px) {
+  .ulClass li {
+    font-size: 24px;
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+  }
 }
