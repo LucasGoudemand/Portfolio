@@ -1,0 +1,52 @@
+.summaryClass {
+  list-style: none;
+  font-size: 1.5vw;
+  font-weight: 500;
+  margin-top: 1vw;
+  padding-bottom: 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.detailsClass {
+  font-size: 1vw;
+}
+.ContainerInfoAndSlider {
+  display: flex;
+}
+.summaryClass:hover span {
+  transform: scale(1.5);
+  transition: transform 0.5s ease-in-out;
+}
+.summaryClass span {
+  color: white;
+  font-size: 2.5vw;
+  transition: transform 0.5s ease-in-out;
+  user-select: none;
+}
+.detailsClass[open] .summaryClass span {
+  transform: rotate(-135deg);
+}
+.detailsClass[open] {
+  transition: 2s;
+}
+.classUl {
+  list-style: none;
+}
+@media (min-width: 1800px) {
+  .summaryClass {
+    font-size: 30px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+  }
+  .detailsClass {
+    font-size: 20px;
+  }
+  .summaryClass span {
+    font-size: 50px;
+  }
+  .line {
+    margin-top: 20px;
+  }
+}

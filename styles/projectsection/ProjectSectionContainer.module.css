@@ -1,0 +1,4 @@
+.containerProject {
+  display: flex;
+  flex-direction: column;
+}

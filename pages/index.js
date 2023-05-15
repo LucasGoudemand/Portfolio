@@ -4,6 +4,7 @@ import Bigtitle from "./components/herosection/Bigtitle";
 import DescriptionUnderBigTitle from "./components/herosection/DescriptionUnderBigtitle";
 import ExplanationContainer from "./components/explanation/ExplanationContainer";
 import ShopSectionContainer from "./components/shopsection/shopSectionContainer";
+import ProjectSectionContainer from "./components/projectsection/projectSectionContainer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <DescriptionUnderBigTitle />
       <ExplanationContainer />
       <ShopSectionContainer />
+      <ProjectSectionContainer />
     </>
   );
 }
