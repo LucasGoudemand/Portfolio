@@ -9,7 +9,7 @@ export default function BasketPrevisualisation(props) {
     <>
       <div className={styles.classPDF}>
         <h2 className={styles.visualisationTitle}>Visualisation du panier</h2>
-        <h2 className={styles.cvTitle}>Développeur Full-Stack</h2>
+        <h2 className={styles.cvTitle}>{props.cvTitle}</h2>
         <div className={styles.cvHeader}>
           <Image
             width={200}

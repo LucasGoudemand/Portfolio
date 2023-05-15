@@ -1,6 +1,6 @@
 .containerTimeline {
   display: flex;
-  font-size: 12px;
+  font-size: 0.66vw;
   margin-top: 70px;
   position: relative;
 }
@@ -45,8 +45,8 @@
   width: 1px;
   margin-right: 5px;
   background-color: white;
-  height: 250px;
-  margin-top: 80px;
+  height: 265px;
+  margin-top: 65px;
   position: relative;
 }
 .lineOpenskillsrh p {
@@ -59,8 +59,8 @@
   width: 1px;
   margin-right: 5px;
   background-color: white;
-  height: 145px;
-  margin-top: 185px;
+  height: 160px;
+  margin-top: 170px;
   position: relative;
 }
 .lineVoyages p {
@@ -104,4 +104,9 @@
   background-color: #72c142;
   bottom: 0;
   position: absolute;
+}
+@media (min-width: 1800px) {
+  .containerTimeline {
+    font-size: 12px;
+  }
 }

@@ -5,10 +5,29 @@ import Preset from "../shopsection/items/Preset";
 import BasketPrev from "../shopsection/basketprev/BasketPrev";
 import data from "../../api/data.json";
 import { useState } from "react";
-//import PdfGenerator from "../shopsection/basketprev/PdfGenerator";
+
+import React from "react";
+import useDownloader from "react-use-downloader";
 
 export default function ShopSectionContainer() {
-  const [basketArray, setBasketArray] = useState([]);
+  const [basketArray, setBasketArray] = useState([
+    "NODES.JS",
+    "EXPRESS",
+    "REACT.JS",
+    "NEXT.JS",
+    "SQL",
+    "MONGODB",
+    "WIN/UNIX",
+    "API",
+    "VMWARE",
+    "TCP/IP",
+    "FIREWALL",
+    "SCRIPTING",
+    "Perfectionniste",
+    "Team player",
+    "Motivé",
+    "Passioné",
+  ]);
 
   function addASkills(value) {
     // Création de la fonction addASkills qui ajoute dans le tableau basketArray les compétences séléctionnées
@@ -24,6 +43,9 @@ export default function ShopSectionContainer() {
     const newBasketArray = basketArray.filter((item) => item !== value);
     setBasketArray(newBasketArray);
   }
+
+  const [cvTitle, setCvTitle] = useState("Développeur Full-Stack"); // Ajout de la variable d'état cvTitl
+
   function frontEndPreset() {
     const frontendArray = [
       "REACT.JS",
@@ -34,9 +56,15 @@ export default function ShopSectionContainer() {
       "FIGMA",
       "SEO",
       "OPTIMISATION",
+      "VMWARE",
+      "Perfectionniste",
+      "Curieux",
+      "Motivé",
+      "Passioné",
     ];
     setBasketArray([]);
     setBasketArray(frontendArray);
+    setCvTitle("Développeur Front-End");
   }
 
   function fullStackPreset() {
@@ -50,9 +78,31 @@ export default function ShopSectionContainer() {
       "WIN/UNIX",
       "API",
       "VMWARE",
+      "TCP/IP",
+      "FIREWALL",
+      "SCRIPTING",
+      "Perfectionniste",
+      "Team player",
+      "Motivé",
+      "Passioné",
     ];
     setBasketArray([]);
     setBasketArray(fullstackArray);
+    setCvTitle("Développeur Full-Stack");
+  }
+
+  const { size, elapsed, percentage, download, cancel, error, isInProgress } =
+    useDownloader();
+
+  let fileUrl = "/FullStack.png";
+  let filename = "FullStack.png";
+
+  if (cvTitle == "Développeur Full-Stack") {
+    fileUrl = "/FullStack.png";
+    filename = "FullStack.png";
+  } else {
+    fileUrl = "/Front-end.png";
+    filename = "Front-end.png";
   }
 
   return (
@@ -100,7 +150,16 @@ export default function ShopSectionContainer() {
           </div>
         </div>
         <div className={styles.containerBasketPrevisualisation}>
-          <BasketPrev array={basketArray} />
+          <BasketPrev array={basketArray} cvTitle={cvTitle} />
+        </div>
+        <div className={styles.containerButton}>
+          <button
+            className={styles.buttonDownload}
+            onClick={() => download(fileUrl, filename)}
+          >
+            Enregistrer en PDF{" "}
+            <span className="material-symbols-outlined">download</span>
+          </button>
         </div>
       </div>
     </>
