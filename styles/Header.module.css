@@ -12,13 +12,17 @@
   display: inline-block;
   margin-top: 30px;
   transition: 1s;
+  padding: 10px;
+  border-radius: 25px;
 }
 .navbar li a:hover {
-  background-color: #72c142;
-  outline: 6px solid #72c142;
-  border-radius: 25px;
   transition: 1s;
+  background-color: #72c142;
+  border-radius: 25px;
+  color: #efefef;
+  transform: translateY(10px);
 }
+
 @media (min-width: 1800px) {
   .navbar li a {
     font-size: 20px;

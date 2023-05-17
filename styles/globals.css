@@ -70,7 +70,9 @@
     --card-border-rgb: 200, 200, 200;
   }
 }
-
+html {
+  scroll-behavior: smooth;
+}
 * {
   box-sizing: border-box;
   padding: 0;
