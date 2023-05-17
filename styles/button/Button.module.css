@@ -26,4 +26,8 @@
     font-size: 20px;
     margin-top: 40px;
   }
+  .button span {
+    margin-left: 10px;
+    font-size: 25px;
+  }
 }

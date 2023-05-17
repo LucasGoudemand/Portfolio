@@ -11,6 +11,7 @@
   margin-bottom: 10px;
   margin-left: 10px;
   font-size: 1vw;
+  font-weight: 200;
 }
 @media (min-width: 1800px) {
   .title {

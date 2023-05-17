@@ -1,5 +1,5 @@
 import styles from "../../../styles/projectsection/Project.module.css";
-
+import ProjectSlider from "../projectsection/projectSlider";
 export default function Project(props) {
   return (
     <>
@@ -19,7 +19,14 @@ export default function Project(props) {
               <li>{props.language4}</li>
             </ul>
           </div>
-          <div className={styles.containerSlider}>Slider</div>
+          <div className={styles.containerSlider}>
+            <ProjectSlider
+              sourceImage1={props.sourceImage1}
+              sourceImage2={props.sourceImage2}
+              sourceImage3={props.sourceImage3}
+              sourceImage4={props.sourceImage4}
+            />
+          </div>
         </div>
       </details>
     </>

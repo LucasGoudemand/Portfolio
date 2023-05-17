@@ -107,7 +107,7 @@ export default function ShopSectionContainer() {
 
   return (
     <>
-      <div className={styles.containerShopSection}>
+      <div className={styles.containerShopSection} id="ShopSectionAnchor">
         <div className={styles.containerSkillsAndBasket}>
           <div className={styles.containerSkills}>
             <div className={styles.containerPreset}>

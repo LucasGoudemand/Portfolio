@@ -11,7 +11,7 @@ export default function DescriptionUnderBigtitle() {
           contacter. Ainsi, en fonction de votre commande, je pourrai savoir
           quelles compétences vous intéressent sur mon profil.
         </p>
-        <Button href="#">
+        <Button href="#ExplanationAnchor">
           Shop <span className="material-symbols-outlined">shopping_cart</span>
         </Button>
       </div>

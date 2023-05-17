@@ -6,13 +6,13 @@ export default function Header() {
     <>
       <ul className={styles.navbar}>
         <li>
-          <Link href="#">Shop</Link>
+          <Link href="#ExplanationAnchor">Shop</Link>
         </li>
         <li>
-          <Link href="#">Projets</Link>
+          <Link href="#ProjectAnchor">Projets</Link>
         </li>
         <li>
-          <Link href="/contact">Me Contacter</Link>
+          <Link href="#">Me Contacter</Link>
         </li>
       </ul>
     </>

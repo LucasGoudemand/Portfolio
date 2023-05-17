@@ -14,6 +14,11 @@
 }
 .ContainerInfoAndSlider {
   display: flex;
+  justify-content: space-between;
+}
+.containerInfo {
+  margin-right: 40px;
+  width: 600px;
 }
 .summaryClass:hover span {
   transform: scale(1.5);

@@ -4,7 +4,7 @@ import Explanation from "../explanation/Explanation";
 export default function ExplanationContainer() {
   return (
     <>
-      <div className={styles.containerExplanation}>
+      <div className={styles.containerExplanation} id="ExplanationAnchor">
         <h2 className={styles.classH2}>Comment constituer mon panier ?</h2>
         <div className={styles.containerForExplanation}>
           <Explanation
