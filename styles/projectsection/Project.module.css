@@ -26,7 +26,7 @@
 }
 .summaryClass span {
   color: white;
-  font-size: 2.5vw;
+  font-size: 4.5vw;
   transition: transform 0.5s ease-in-out;
   user-select: none;
 }
@@ -49,7 +49,7 @@
     font-size: 20px;
   }
   .summaryClass span {
-    font-size: 50px;
+    font-size: 80px;
   }
   .line {
     margin-top: 20px;

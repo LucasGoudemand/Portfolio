@@ -6,7 +6,7 @@ export default function ProjectSectionContainer(props) {
     <>
       <div className={styles.containerProject} id="ProjectAnchor">
         <h2>Mes Projets</h2>
-        <div className={styles.Line}></div>
+        <div className={styles.line}></div>
         <Project
           titleSummary="MAIZON"
           infoProjet="(AirBNB like) Application de location immobiliaire en React.js. Inclu un systeme de fiche pour chaque logements, systeme de ranking ainsi qu'une photo du proprietaire."
@@ -19,6 +19,7 @@ export default function ProjectSectionContainer(props) {
           sourceImage3="/maizon3.png"
           sourceImage4="/maizon4.png"
         />
+        <div className={styles.line}></div>
         <Project
           titleSummary="CA BRÛLE"
           infoProjet="Application de ranking de sauces en Express/Node.js. Inclu une gestion CRUD avec MongoDB. Dependances utilisées: bCrypt, dotEnv, FS, jsonwebToken, mongoose, multer, shortID "
@@ -31,6 +32,7 @@ export default function ProjectSectionContainer(props) {
           sourceImage3="/pikante3.webp"
           sourceImage4="/pikante1.webp"
         />
+        <div className={styles.line}></div>
         <Project
           titleSummary="SOFA"
           infoProjet="Site E-commerce pour l'achat de canapés. Fetch des items depuis une API, gestions des stocks, des prix et des couleurs dynamiquement. Gestion du panier avec modifications des quantitées et des prix en temps réel."

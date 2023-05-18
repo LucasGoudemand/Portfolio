@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Header() {
   return (
     <>
-      <ul className={styles.navbar}>
+      <ul className={styles.navbar} id="startAnchor">
         <li>
           <Link href="#ExplanationAnchor">Shop</Link>
         </li>
